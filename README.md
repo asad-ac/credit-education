@@ -80,15 +80,13 @@ Run this project locally with the following steps:
 
 ## Contributing & Contact  
 
-Have ideas to improve this project or want to collaborate?  
-
 * **Open an Issue:** Share bugs, feature requests, or suggestions.  
 * **Submit a Pull Request:** Fork the repo and contribute directly.  
 * **Reach Out:** If you’d like to discuss this project or work on it together, feel free to connect:  
   - [LinkedIn](https://www.linkedin.com/in/asad-a-chaudhry/)  
   - [Email](mailto:asadachau@gmail.com)  
 
-Contributions, feedback, and suggestions are always welcome!
+Thanks for checking out the project!
 
 
 
