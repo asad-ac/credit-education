@@ -1,8 +1,32 @@
+:root {
+    /* Light Mode */
+    --bg-color: #F4F6F8;
+    /* #a6a0cf */
+    --text-color: #1C1F26;
+    /* #231942; */
+
+    /* Dark Mode */
+    --bg-color-dark-mode:#0D1B2A;
+    --text-color-dark-mode:#E1EAF2;
+
+    /* Accent Colors */
+    --accent-color-light: #d2cff5;
+    --accent-color-medium: #684fb5;
+    --accent-color-dark: #482f95;
+    --accent-color-darkest: #231942;
+    --accent-color-green: #28eb76;
+
+    --card: #bfc3c9;
+    --navbar-and-footer-bg: #263B50;
+
+    /* Error Colors */
+    --error-color: #f8bbd0;
+    --error-color-border: #e63946;
+}
 
 html {
     scroll-padding-top: 90px;
 }
-
 
 main {
   margin-bottom: 100px;
@@ -94,15 +118,15 @@ a:active {
 }
 
 button {
-    background-color: goldenrod;    /* button color */
+    background-color: goldenrod;
     color: white;
-    font-size: .6rem;              /* text color */
-    border: none;               /* hides the default border */
-    padding: 7px 14px;          /* space between button's text and edge */
-    border-radius: 5px;         /* curved edges instead of square */
+    font-size: .6rem;             
+    border: none;               
+    padding: 7px 14px;         
+    border-radius: 5px;        
     cursor: pointer;  
     margin: 10px;
-    font-family: Tahoma, sans-serif;   /* makes the cursor change when over button */
+    font-family: Tahoma, sans-serif; 
 }
 
 .header-container { 
@@ -296,17 +320,14 @@ input::placeholder {
 }
 
 .modal-container {
-    /* Change modal size and spacing here */
     padding: 50px;
     width: 55%;
     border-radius: 10px;
-    /* Customize modal style here */
     background-color: dodgerblue;
     color: black;
     text-align: center;
     font-size: 1rem;
     font-family: sans-serif;
-    /* Optional: Use flexbox to customize .modal-item layout */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -428,32 +449,6 @@ background-color: #005596;
   background-color: var(--text-color-dark-mode);
 }
 
-:root {
-    /* Light Mode */
-    --bg-color: #F4F6F8;
-    /* #a6a0cf */
-    --text-color: #1C1F26;
-    /* #231942; */
-
-    /* Dark Mode */
-    --bg-color-dark-mode:#0D1B2A;
-    --text-color-dark-mode:#E1EAF2;
-
-    /* Accent Colors */
-    --accent-color-light: #d2cff5;
-    --accent-color-medium: #684fb5;
-    --accent-color-dark: #482f95;
-    --accent-color-darkest: #231942;
-    --accent-color-green: #28eb76;
-
-    --card: #bfc3c9;
-    --navbar-and-footer-bg: #263B50;
-
-    /* Error Colors */
-    --error-color: #f8bbd0;
-    --error-color-border: #e63946;
-}
-
 .footer {
   position: fixed;
   left: 0;
@@ -518,8 +513,6 @@ ul.event-font.bullets li {
   margin-bottom: 10px;
   font-size: 1.25rem;
 }
-
-
 
 .card img {
   width: 70%;
@@ -902,4 +895,4 @@ ul.event-font.bullets li {
     padding: 20px;
     box-sizing: border-box;
   }
-  }
+}
