@@ -1,9 +1,7 @@
 // dark mode button
 const themeButton = document.getElementById("theme-button")
 const toggleDarkMode = () => {
-
   document.body.classList.toggle("dark-mode");
-    
 }
 
 themeButton.addEventListener('click',toggleDarkMode);
@@ -31,7 +29,6 @@ fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&que
 const submitBtn = document.getElementById("rsvp-button");
 
 const addParticipant = (person) => {
-    // Step 2: Write your code to manipulate the DOM here
     const nameInput = document.getElementById("name-input").value;
     const emailInput = document.getElementById("email-input").value;
     const stateInput = document.getElementById("state-input").value;
@@ -84,7 +81,6 @@ const validateForm = () => {
     }
   }
 }
-
 
 submitBtn.addEventListener('click', validateForm)
 
