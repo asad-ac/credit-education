@@ -11,10 +11,6 @@ A responsive and interactive website designed to help users understand and manag
   * Hamburger menu for mobile navigation
   * Sign-up modal for user engagement
 
-## Future Enhancements
-  * Add information about 401(k) and IRA accounts
-  * Create a server to send confirmation email for sign-up form
-
 ## Tech Stack
 
 * HTML5 (Semantic structure for accessibility & SEO)
