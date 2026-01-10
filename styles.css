@@ -31,12 +31,10 @@ body {
     /* Add a background color or image */
     background-color: var(--bg-color); /* see bottom of file for color variables */
 
-    /* Customize the default size, color, and font for text*/
     font-size: 18px;
     color: var(--text-color);
-    font-family: Tahoma, sans-serif; /* This tells the browser: "Try to use `Tahoma`, and if you can't find it, use any sans-serif font." */
+    font-family: Tahoma, sans-serif;
 
-    /* Put space around the edges of the webpage */
     margin: 0 0;
     scroll-behavior: smooth;
 }
@@ -69,27 +67,6 @@ article h3 {
 
 h1 {
   font-size: 4rem;
-}
-
-h2 {
-    
-}
-
-h3 {
-    
-}
-
-h4 {
-    
-}
-
-p {
-    
-}
-
-a,
-a * {
-    
 }
 
 a:link {
@@ -128,11 +105,6 @@ button {
     font-family: Tahoma, sans-serif;   /* makes the cursor change when over button */
 }
 
-button:hover {
-    /* Make the button look different when the user hovers over it */
-}
-
-
 .header-container { 
     padding-top: 20px;
     margin-top: 30px;
@@ -166,11 +138,11 @@ button:hover {
 .header-button {
     font-family: Tahoma, sans-serif;
     margin-right: 15px;
-    background-color: #0000FF;    /* button color */
-    color: white;               /* text color */
-    border: none;               /* hides the default border */
-    padding: 7px 14px;          /* space between button's text and edge */
-    border-radius: 5px;         /* curved edges instead of square */
+    background-color: #0000FF;
+    color: white;               
+    border: none;             
+    padding: 7px 14px;        
+    border-radius: 5px;         
     cursor: pointer;
     text-decoration: none;
 }
@@ -178,14 +150,6 @@ button:hover {
 .header-button:visited {
   color: white;
 }
-
-
-
-.footer { /* Example B: This styles elements with class="footer" */
-    
-}
-
-
 
 .navbar {
   position: fixed;
@@ -196,7 +160,7 @@ button:hover {
 }
 
 .navbar ul {
-    z-index: 1000; /* Ensures the navbar is on top of other elements */
+    z-index: 1000;
     list-style-type: none;
     overflow: hidden;
     position: fixed;
@@ -205,7 +169,6 @@ button:hover {
     width: 100%;
     margin-top: 0;
     margin-bottom: 20px;
-    /* Change margin-bottom when appropriate */
     background-color: #2e3a59;
     display: flex;
     align-items: center;
@@ -213,7 +176,6 @@ button:hover {
     border-bottom: 3px solid dodgerblue;
     gap: 10px;
 }
-
 
 .navbar button {
   float: left;
@@ -235,8 +197,6 @@ button:hover {
     font-size: 1.1rem;
     color: gold;
 }
-
-
 
 .form-container {
   display: flex;
@@ -269,15 +229,6 @@ button:hover {
   display: inline-block;
   margin-right: 25px;
   margin-left: 25px;
-}
-
-.rsvp-button {
-}
-
-.form-container {
-}
-
-.rsvp-input {
 }
 
 .rsvp-label {
@@ -321,16 +272,14 @@ input::placeholder {
   border-color: red; */
   border: 2px solid red;
   background-color: rgb(255, 204, 203);
-  /* Set border-color and background */
 }
 
 
 .modal {
-  display: none;   /* modal should be hidden by default*/
-  position: fixed; /* modal cannot move around the screen */
-  z-index: 2;      /* modal appears above other elements */ 
+  display: none;
+  position: fixed; 
+  z-index: 2;     
   
-  /* TODO: Make the modal fill the entire screen */
   left: 0;
   top: 0;
   width: 100%;
@@ -362,13 +311,6 @@ input::placeholder {
     align-items: center;
     justify-content: space-between;
     position: relative;
-}
-
-.modal-message {
-}
-
-.modal-item {
-    /* Optional: Style individual elements within the modal */
 }
 
 .modal-content {
@@ -411,10 +353,6 @@ input::placeholder {
   border: 3px solid red;
 }
 
-
-
-
-
 /* Default dark mode style */
 .dark-mode {
   color: var(--text-color-dark-mode);
@@ -427,12 +365,6 @@ input::placeholder {
 
 .dark-mode .modal-container {
   background-color: #1E40AF;
-}
-
-/* Example: Different dark mode style for h1 */
-.dark-mode h1 {
-}
-.dark-mode h2 {
 }
 
 .dark-mode .footer {
@@ -495,11 +427,6 @@ background-color: #005596;
 .dark-mode .hamburger span {
   background-color: var(--text-color-dark-mode);
 }
-/* Example: Different dark mode style for visited links */
-.dark-mode a:visited * {
-  
-}
-
 
 :root {
     /* Light Mode */
@@ -741,6 +668,7 @@ ul.event-font.bullets li {
 .call-underline {
   text-decoration: underline;
 }
+
 /* Hamburger animation when active */
 .hamburger.active span:nth-child(1) {
     transform: rotate(-45deg) translate(-5px, 6px);
@@ -974,7 +902,4 @@ ul.event-font.bullets li {
     padding: 20px;
     box-sizing: border-box;
   }
-
-
-  
   }
