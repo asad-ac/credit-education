@@ -74,7 +74,7 @@ Run this project locally with the following steps:
 
 > Pop-up displayed after a user signs up, providing confirmation and encouraging engagement.
 
-## Contributing & Contact  
+## Contact  
 
 * **Reach Out:** If you’d like to, feel free to connect:  
   - [LinkedIn](https://www.linkedin.com/in/asad-a-chaudhry/)  
