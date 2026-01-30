@@ -76,9 +76,7 @@ Run this project locally with the following steps:
 
 ## Contributing & Contact  
 
-* **Open an Issue:** Share bugs, feature requests, or suggestions.  
-* **Submit a Pull Request:** Fork the repo and contribute directly.  
-* **Reach Out:** If you’d like to discuss this project or work on it together, feel free to connect:  
+* **Reach Out:** If you’d like to, feel free to connect:  
   - [LinkedIn](https://www.linkedin.com/in/asad-a-chaudhry/)  
   - [Email](mailto:asadachau@gmail.com)  
 
